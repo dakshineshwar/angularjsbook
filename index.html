@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dakshineshwar Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-route.js"></script>
+
+</head>
+   
+<body ng-app="myApp">
+<header>
+   <h1>Dakshineshwar Book Gallery</h1>
+</header>
+<div class="container">
+ </div>
+<div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BookApp</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#home">Home</a></li>
+  <li><a href="#ListBook">Book List</a></li>
+  <li><a href="#AddBook">Add Book</a></li>
+
+  </div>
+</nav>
+</ul>
+</div>
+
+<div class= "col-xs-8">
+   <div ng-view></div>
+</div>
+
+<script src="app.js"></script>
+<script src="services/services.js"></script>
+<script src="controllers/list-book.js"></script>
+<script src="controllers/add-book.js"></script>
+<script src="controllers/edit-book.js"></script>
+
+</body>
+
+</html>
