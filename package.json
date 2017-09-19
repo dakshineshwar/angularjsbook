@@ -8,8 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {  
+  "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-connect-multi": "^1.0.8" 
+    "gulp-connect-multi": "^1.0.8",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
   }
 }
